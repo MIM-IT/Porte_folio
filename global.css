@@ -1,79 +1,22 @@
 :root{
     --bs-orange:#DD5533; 
     --bs-jaune:#FFA102;
-    --bs-bleu:#432E6F;
     --bs-marron:#450E15; 
     --bs-blanc:#F5E9CE;
+    --bs-rouge: rgb(255, 85, 85);
+    --bs-jone : rgb(255, 156, 85);
+    --bs-vert: #2EB67E;
+    --bs-bleu: blue 0px 0px 0px;
 }
 /*a mettre dans un roots.css*/
 
 *{
     font-family: San Francisco;
 }
-
-div.premierSection{
-    background-color: snow;
-   
-}
-div.card{
-    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
-}
-<!-- HTML !-->
-<button class="button-58" role="button">Button 58</button>
-
-/* CSS */
-.button-58 {
-  align-items: center;
-  background-color: #06f;
-  border: 2px solid #06f;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-flex;
-  fill: #000;
-  font-family: Inter,sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  height: 48px;
-  justify-content: center;
-  letter-spacing: -.8px;
-  line-height: 24px;
-  min-width: 140px;
-  outline: 0;
-  padding: 0 17px;
-  text-align: center;
+a {
   text-decoration: none;
-  transition: all .3s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  color: #FFFFFF;
 }
-
-.button-58:focus {
-  color: #171e29;
-}
-
-.button-58:hover {
-  background-color: #3385ff;
-  border-color: #3385ff;
-  fill: #06f;
-}
-
-.button-58:active {
-  background-color: #3385ff;
-  border-color: #3385ff;
-  fill: #06f;
-}
-
-@media (min-width: 768px) {
-  .button-58 {
-    min-width: 170px;
-  }
-}
-<!-- HTML !-->
-<button class="button-24" role="button">Button 24</button>
-
-/* CSS */
 .button-24 {
   background: #FF4742;
   border: 1px solid #FF4742;
@@ -109,13 +52,92 @@ div.card{
 .button-24:active {
   opacity: .5;
 }
-/*
-div.premierItem{
-    display: run-in;
-    /* text-align: center; */
+div.premierSection{
+  background-color: #f8f9fa;
+   
+}
+div.card{
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    
+ 
+}
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
 
 
-/*div.premierSection{
-    text-align: center;
-}*/
+#compUML{
+  background-image: url(img/compétences.png);
+  width:1200px;
+  height:680px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
 
+
+#profil-img {
+  width:250px;
+  height:250px;
+  background-image: url(img/IMG_6904.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  background-position: 50%;
+}
